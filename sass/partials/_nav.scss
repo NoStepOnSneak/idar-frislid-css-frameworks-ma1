@@ -1,0 +1,24 @@
+.nav-link {
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: $nav-link;
+    letter-spacing: 1.5px;
+}
+
+#nav__link--active {
+    color: $primary-color;
+}
+
+.nav-link:hover {
+    color: $nav-brand;
+}
+
+.navbar {
+    background-color: $element-background;
+}
+
+.navbar-brand {
+    font-size: 36px;
+    color: $nav-brand;
+}

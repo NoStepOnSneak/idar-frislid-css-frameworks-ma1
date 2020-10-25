@@ -1,0 +1,18 @@
+.main__card {
+    width: 264px;
+    height: 263px;
+    margin: 10px auto;
+    background-color: $element-background;
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px;
+}
+
+.main__card--border {
+    border: 3px solid $primary-color;
+    background-color: $white;
+}
+
+.main__card--fill {
+    border: 3px solid $white;
+    background-color: $primary-color;
+}

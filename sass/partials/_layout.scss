@@ -1,0 +1,54 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: $page-background;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 34px;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.row {
+    margin-bottom: 25px;
+}
+
+footer {
+    font-size: 12px;
+    background-color: $element-background;
+    padding: 20px calc((100vw - 1140px) / 2);
+    display: flex;
+}
+
+.email,
+.copyright {
+    flex: 1;
+    padding: 8px 0;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
+
+.copyright {
+    text-align: right;
+}
+
+
+@media only screen and (max-width: 1199px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .email,
+    .copyright {
+        text-align: center;
+    }
+}
